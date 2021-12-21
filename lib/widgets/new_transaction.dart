@@ -132,7 +132,6 @@ class _NewTransactionState extends State<NewTransaction> {
                         : 'Picked Date: ${DateFormat.yMd().format(_selectedDate)}',
                     style: TextStyle(
                       color: Colors.grey,
-                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
